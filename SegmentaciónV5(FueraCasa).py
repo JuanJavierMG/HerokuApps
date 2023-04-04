@@ -9,6 +9,7 @@ customer_data = pd.read_csv('customer_data.csv')
 
 # Create Dash app
 app = dash.Dash(__name__)
+server = app.server
 
 # New graphs
 gender_purchase_frequency = customer_data.groupby('Gender')['Purchase_Frequency'].mean().reset_index()
