@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export SWIG_LIB=/tmp/build_e9db86b2/.apt/usr/share/swig/4.0.1
+pip install -r requirements.txt
