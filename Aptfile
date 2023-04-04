@@ -1,4 +1,3 @@
-web: sh heroku_setup.sh && swig
 libcairo2-dev
 libffi-dev
-
+swig
