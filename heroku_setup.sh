@@ -1,3 +1,3 @@
-#!/bin/sh 
-export SWIG_LIB="$HOME/.apt/usr/share/swig3.0"
+#!/bin/sh
+export SWIG_LIB="$HOME/swig_Lib"
 apt-get install -y swig
