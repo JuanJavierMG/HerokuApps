@@ -61,5 +61,5 @@ Werkzeug==2.2.3
 XlsxWriter==3.0.7
 yfinance==0.2.13
 swig==4.0.2
-mupdf==1.21.0
+mupdf==1.21.1
 pyMuPDF==1.20.1
