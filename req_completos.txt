@@ -1,5 +1,6 @@
 appdirs==1.4.4
 attrs==22.2.0
+beautifulsoup4==4.12.0
 certifi==2022.12.7
 cffi==1.15.1
 charset-normalizer==3.1.0
@@ -8,6 +9,7 @@ click-plugins==1.1.1
 cligj==0.7.2
 colorama==0.4.6
 contourpy==1.0.7
+cryptography==39.0.2
 cycler==0.11.0
 dash==2.9.1
 dash-core-components==2.0.0
@@ -22,6 +24,7 @@ frozendict==2.3.6
 geographiclib==2.0
 geopandas==0.12.2
 geopy==2.3.0
+html5lib==1.1
 idna==3.4
 itsdangerous==2.1.2
 Jinja2==3.1.2
@@ -60,5 +63,5 @@ yfinance==0.2.13
 swig==4.0.2
 PyMuPDF==1.20.1
 gunicorn==20.1.0
-Flask-Gzip
-flask_compress
+
+

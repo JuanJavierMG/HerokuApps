@@ -3,6 +3,8 @@ from dash import dcc, html
 import plotly.express as px
 import pandas as pd
 import os
+from flask_compress import Compress
+
 
 # Load the customer data from the CSV file
 customer_data = pd.read_csv('customer_data.csv')
@@ -10,6 +12,8 @@ customer_data = pd.read_csv('customer_data.csv')
 # Create Dash app
 app = dash.Dash(__name__)
 server = app.server
+compress = Compress()
+compress.init_app(server)
 
 # New graphs
 gender_purchase_frequency = customer_data.groupby('Gender')['Purchase_Frequency'].mean().reset_index()
