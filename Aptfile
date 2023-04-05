@@ -2,3 +2,5 @@ libcairo2-dev
 libffi-dev
 swig
 mupdf-tools
+mupdf
+mupdf-dev
