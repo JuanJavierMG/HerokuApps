@@ -4,3 +4,4 @@ swig
 mupdf-tools
 mupdf
 libmupdf-dev
+gunicorn
