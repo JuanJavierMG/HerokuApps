@@ -1,1 +1,1 @@
-web: gunicorn SegmentacionV5:server
+web: gunicorn SegmentacionV6:server
