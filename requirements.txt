@@ -63,3 +63,5 @@ yfinance==0.2.13
 swig==4.0.2
 mupdf
 pyMuPDF
+gunicorn
+
