@@ -3,4 +3,4 @@ libffi-dev
 swig
 mupdf-tools
 mupdf
-mupdf-dev
+libmupdf-dev
