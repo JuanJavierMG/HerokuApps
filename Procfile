@@ -1,1 +1,1 @@
-web: waitress-serve --listen=*:$PORT SegmentacionV6:server
+web: waitress-serve --listen=$PORT SegmentacionV6:server
